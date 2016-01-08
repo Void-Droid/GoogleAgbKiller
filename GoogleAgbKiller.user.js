@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Google
 // @namespace   g
-// @description Testto print smth
+// @description The GoogleAgbKiller.
 // @include     https://*.google.*/*
 // @include     http://*.google.*/*
 // @version     1
