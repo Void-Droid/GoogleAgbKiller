@@ -22,6 +22,11 @@ What you Need:
 This script were just written a few days ago.
 If there are any issues, please let me know.
 
+Here are some of the known issues:
+
+- Vertical-Scrollbar disappars (solution would be to use arrowkeys or the mousewheel-button)
+- No autofocus on the Searchfield of Google apperas
+
 ##Suggestions
 
 Let me know if there are any suggestions for new features or functions or even usabilities.
