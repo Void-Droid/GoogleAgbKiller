@@ -4,7 +4,11 @@ A GreaseMonkey-Script for the AddOn in Forefox, which disables the penetrating P
 
 Looks somehow likes this:
 
-<img src="http://www.googlewatchblog.de/wp-content/uploads/privacy-reminder-3.png"/>
+<img src="https://images.gutefrage.net/media/fragen/bilder/firefox-hinweise-zum-datenschutz-bei-google/0_original.jpg?v=1437296330000"/>
+
+This script also gets rid of these:
+
+<img src="http://media2.giga.de/2015/07/Google-Hinweis-zum-Datenschutz-bei-Google-rcm992x0.jpg"/>
 
 
 ##Instruction
