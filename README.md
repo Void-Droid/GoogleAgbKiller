@@ -15,7 +15,7 @@ What you Need:
 
 1. <a href="https://www.mozilla.org/en-US/firefox/products/"><b>Firefox</b></a>
 2. <a href="https://addons.mozilla.org/de/firefox/addon/greasemonkey/?src=ss"><b>GreaseMonkey</b></a> 
-3. The <a href="https://github.com/pCross-/GooglePopUpKiller/blob/master/GooglePopUpKiller.user.js"><b>GooglePopUpKiller.user.js</b></a> on this page to install (<a href="https://github.com/Void-Droid/GooglePopUpKiller/raw/master/GooglePopUpKiller.user.js">just press here to install the script</a>)
+3. The <a href="https://github.com/Void-Droid/GooglePopUpKiller/blob/master/GooglePopUpKiller.user.js"><b>GooglePopUpKiller.user.js</b></a> on this page to install (<a href="https://github.com/Void-Droid/GooglePopUpKiller/raw/master/GooglePopUpKiller.user.js">just press here to install the script</a>)
 
 ##Issues
 
