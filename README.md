@@ -2,6 +2,11 @@
 
 A GreaseMonkey-Script for the AddOn in Forefox, which disables the penetrating Popup-Window on every Google-Page which tells you to agree the new general business terms, which stops you to use Google if you dont agree.
 
+Looks somhow likes this:
+
+<img src="http://www.googlewatchblog.de/wp-content/uploads/privacy-reminder-3.png"/>
+
+
 ##Instruction
 
 This script, written for the GreaseMonkey-AddOn and in Javascript, will disable on all Google-Pages the forcing way to sign up on the new general business terms from Google.
