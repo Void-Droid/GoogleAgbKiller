@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name        Google
+// @name        GooglePopUpKiller
 // @namespace   g
-// @description The GoogleAgbKiller.
+// @description The "General Business Terms"-PopUp-Killer for any Google-Site.
 // @include     https://*.google.*/*
 // @include     http://*.google.*/*
 // @version     1.0
 // @grant       none
 // ==/UserScript==
 
-function googleAgbKiller(){
+function googlePopUpKiller(){
 
 	document.documentElement.style+="overflow:visible;";
 	if(null != document.getElementById("dialog_uid_0")){
@@ -16,4 +16,4 @@ function googleAgbKiller(){
 	}
 }
 
-window.onload=googleAgbKiller;
+window.onload=googlePopUpKiller;
