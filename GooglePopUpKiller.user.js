@@ -18,7 +18,7 @@ function googlePopUpKiller(){
 
 	document.documentElement.style+="overflow:visible;";
 	
-	if(timer>=3){
+	if(timer>=5){
 		window.clearInterval(timeoutFunc);
 	}
 	
@@ -34,10 +34,10 @@ function disableGoogleElements(id){
 	}else{
 
 		timerId=id;		
-		window.setTimeout(timeoutFunc, 3000);
+		window.setTimeout(timeoutFunc, 1000);
 		timer++;
 		
-		if(timer>=3){
+		if(timer>=5){
 			window.clearInterval(timeoutFunc);
 		}
 	}
