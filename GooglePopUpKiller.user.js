@@ -15,7 +15,8 @@ function googlePopUpKiller(){
 	disableGoogleElements("dialog_uid_0");	//PopUp which forces you to agree the new terms
 	disableGoogleElements("taw");			//Evidence which tells u there are new terms (after searching something)
 	disableGoogleElements("cnsh");			//Evidence which tells u there are new terms (frontpage)
-
+	disableGoogleElements("gb_Fa");			//Evidence which tells u there are new terms (frontpage)
+	
 	document.documentElement.style+="overflow:visible;";
 	
 	if(timer>=5){
@@ -44,13 +45,20 @@ function disableGoogleElements(id){
 }
 
 function displayNone(id){
-	document.getElementById(id).style="display:none;";		
+	if(null != document.getElementById(id)){
+		document.getElementById(id).style="display:none;";		
+	}else if(document.getElementsByClassName(id).length > 0){
+		document.getElementsByClassName(id)[0].style="display:none;";
+	}
+		
 }
 
 function isElementNotNull(id){
 	var result=false;
 	
 	if(null != document.getElementById(id)){
+		result=true;
+	}else if(document.getElementsByClassName(id).length > 0){
 		result=true;
 	}
 	
