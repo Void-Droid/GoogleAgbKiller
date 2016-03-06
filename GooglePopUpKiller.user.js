@@ -16,6 +16,8 @@ function googlePopUpKiller(){
 	disableGoogleElements("taw");			//Evidence which tells u there are new terms (after searching something)
 	disableGoogleElements("cnsh");			//Evidence which tells u there are new terms (frontpage)
 	disableGoogleElements("gb_Fa");			//Evidence which tells u there are new terms (frontpage)
+	disableGoogleElements("widget-consent-frame-container");			//Evidence which tells u there are new terms (frontpage)
+	disableGoogleElements("consent-bump");
 	
 	document.documentElement.style+="overflow:visible;";
 	
